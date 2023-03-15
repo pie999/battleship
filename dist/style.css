@@ -1,0 +1,40 @@
+.grids {
+  display: flex;
+  justify-content: space-around;
+}
+
+.grid1 {
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+}
+
+.grid2 {
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+}
+
+.cell {
+  height: 30px;
+  width: 30px;
+  border: 1px solid black;
+}
+
+.water {
+  background-color: rgb(84, 84, 255);
+}
+
+.waterHit {
+  background: #0300a8;
+}
+
+.ship {
+  background-color: rgb(49, 49, 49);
+}
+
+.shipHit {
+  background-color: rgb(82, 0, 0);
+}
+
+.shipSunk {
+  background-color: black;
+}
